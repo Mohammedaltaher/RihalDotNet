@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.Controllers.BaseApiController">
+            <summary>
+            BaseApiController
+            </summary>
+        </member>
+        <member name="P:WebApi.Controllers.BaseApiController.Mediator">
+            <summary>
+            map Meditor
+            </summary>
+        </member>
+        <member name="T:WebApi.Controllers.v1.ErrorController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.v1.ErrorController.#ctor(Microsoft.Extensions.Logging.ILogger{WebApi.Controllers.v1.ErrorController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:WebApi.Controllers.v1.ErrorController.ErrorLocalDevelopment(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Development error
+            </summary>
+            <param name="webHostEnvironment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.ErrorController.Error">
+            <summary>
+            Live Error
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebApi.Controllers.v1.AdditionalFeatureController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.v1.AdditionalFeatureController.Create(Application.Features.AdditionalFeatureFeatures.Commands.CreateAdditionalFeatureCommand)">
+            <summary>
+            Creates a New AdditionalFeature.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.AdditionalFeatureController.GetAll">
+            <summary>
+            Gets all AdditionalFeatures.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.AdditionalFeatureController.GetById(System.Int32)">
+            <summary>
+            Gets AdditionalFeature Entity by Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.AdditionalFeatureController.Delete(System.Int32)">
+            <summary>
+            Deletes AdditionalFeature Entity based on Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.AdditionalFeatureController.Update(System.Int32,Application.Features.AdditionalFeatureFeatures.Commands.UpdateAdditionalFeatureCommand)">
+            <summary>
+            Updates the AdditionalFeature Entity based on Id.   
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApi.Controllers.v1.UserAccountController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.v1.UserAccountController.RegisterUser(Application.Features.UserAccountFeatures.Commands.RegisterUserAccountCommand)">
+            <summary>
+            Register  New User.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.UserAccountController.CreateAdmin(Application.Features.UserAccountFeatures.Commands.CreateUserAccountCommand)">
+            <summary>
+            Create new admin user.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.UserAccountController.UserLogin(Application.Features.UserAccountFeatures.Commands.LoginCommand)">
+            <summary>
+            Create new admin user.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApi.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApi.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:WebApi.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:WebApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+             <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+             </summary>
+             <param name="services"></param>
+        </member>
+        <member name="M:WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:WebApi.WeatherForecast">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebApi.WeatherForecast.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebApi.WeatherForecast.TemperatureC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebApi.WeatherForecast.TemperatureF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebApi.WeatherForecast.Summary">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

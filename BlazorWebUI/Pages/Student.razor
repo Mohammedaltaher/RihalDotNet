@@ -1,0 +1,77 @@
+﻿@page "/Students"
+@attribute [Authorize]
+
+<PageTitle>Student </PageTitle>
+@inject IMediator  Mediator;
+
+
+<AuthorizeView>
+    <Authorized>
+        <h1>Hello, @context.User.Identity.Name!</h1>
+        <p>You can only see this content if you're authorized.</p>
+        @*<button @onclick="SecureMethod">Authorized Only Button</button>*@
+    </Authorized>
+    <NotAuthorized>
+        <h1>Authentication Failure!</h1>
+        <p>You're not signed in.</p>
+    </NotAuthorized>
+</AuthorizeView>
+<PageTitle>Additional Features </PageTitle>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">additional features </h1>
+                <p>This component demonstrates fetching data from the server.</p>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Dashboard v1</li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+<section class="content">
+@if (Students == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Country</th>
+                <th>Birth Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in Students)
+            {
+                <tr>
+                    <td>@forecast.Name</td>
+                    <td>@forecast.ClassName</td>
+                    <td>@forecast.CountryName</td>
+                    <td>@forecast.Birth_Date</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+</section>
+
+@code {
+    private List<StudentDto>? Students;
+    protected override async Task OnInitializedAsync()
+    {
+         StudentsBaseModel? obj = await Mediator.Send(new GetAllStudentQuery());
+         Students =  obj.Data;
+    }
+}

@@ -1,0 +1,376 @@
+2021-11-08 11:20:09.0841 Info Message Template Auto Format enabled
+2021-11-08 11:20:09.1155 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-08 11:20:09.1947 Info Adding target FileTarget(Name=alldata)
+2021-11-08 11:20:09.1947 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-08 11:20:09.2285 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-08 11:20:19.6012 Info Message Template Auto Format enabled
+2021-11-08 11:20:19.6012 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-08 11:20:19.6736 Info Adding target FileTarget(Name=alldata)
+2021-11-08 11:20:19.6736 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-08 11:20:19.7004 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-08 11:31:13.0052 Info Message Template Auto Format enabled
+2021-11-08 11:31:13.0126 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-08 11:31:13.0706 Info Adding target FileTarget(Name=alldata)
+2021-11-08 11:31:13.0844 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-08 11:31:13.1215 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-08 11:33:47.8694 Info Message Template Auto Format enabled
+2021-11-08 11:33:47.8788 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-08 11:33:47.9213 Info Adding target FileTarget(Name=alldata)
+2021-11-08 11:33:47.9213 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-08 11:33:47.9546 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-08 11:49:59.9151 Info Message Template Auto Format enabled
+2021-11-08 11:49:59.9223 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-08 11:49:59.9572 Info Adding target FileTarget(Name=alldata)
+2021-11-08 11:49:59.9572 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-08 11:49:59.9789 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-08 11:50:33.0550 Info Message Template Auto Format enabled
+2021-11-08 11:50:33.0639 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-08 11:50:33.0987 Info Adding target FileTarget(Name=alldata)
+2021-11-08 11:50:33.0987 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-08 11:50:33.1191 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-08 11:53:56.0484 Info Message Template Auto Format enabled
+2021-11-08 11:53:56.0484 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-08 11:53:56.0905 Info Adding target FileTarget(Name=alldata)
+2021-11-08 11:53:56.0905 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-08 11:53:56.1132 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-09 11:03:37.3383 Info Message Template Auto Format enabled
+2021-11-09 11:03:37.3433 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:03:37.3719 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:03:37.3719 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:03:37.3880 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:03:37.3880 Info Configuration initialized.
+2021-11-09 11:03:37.3880 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:03:38.5013 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:03:38.5136 Info Logger has been shut down.
+2021-11-09 11:04:52.3131 Info Message Template Auto Format enabled
+2021-11-09 11:04:52.3339 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:04:52.3594 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:04:52.3594 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:04:52.3754 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:04:52.3754 Info Configuration initialized.
+2021-11-09 11:04:52.3754 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:04:53.2991 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:04:53.2991 Info Logger has been shut down.
+2021-11-09 11:06:57.4656 Info Message Template Auto Format enabled
+2021-11-09 11:06:57.4656 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:06:57.4985 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:06:57.4985 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:06:57.5147 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:06:57.5147 Info Configuration initialized.
+2021-11-09 11:06:57.5147 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:06:58.4858 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:06:58.4858 Info Logger has been shut down.
+2021-11-09 11:31:00.0072 Info Message Template Auto Format enabled
+2021-11-09 11:31:00.0072 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:31:00.0407 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:31:00.0407 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:31:00.0585 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:31:00.0684 Info Configuration initialized.
+2021-11-09 11:31:00.0684 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:31:00.5752 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:31:00.5752 Info Logger has been shut down.
+2021-11-09 11:31:27.4716 Info Message Template Auto Format enabled
+2021-11-09 11:31:27.4757 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:31:27.5014 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:31:27.5014 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:31:27.5175 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:31:27.5261 Info Configuration initialized.
+2021-11-09 11:31:27.5261 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:31:28.2303 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:31:28.2303 Info Logger has been shut down.
+2021-11-09 11:35:41.4045 Info Message Template Auto Format enabled
+2021-11-09 11:35:41.4045 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:35:41.4368 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:35:41.4368 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:35:41.4549 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:35:41.4643 Info Configuration initialized.
+2021-11-09 11:35:41.4643 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:35:42.0869 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:35:42.0869 Info Logger has been shut down.
+2021-11-09 11:35:56.3858 Info Message Template Auto Format enabled
+2021-11-09 11:35:56.3858 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:35:56.4175 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:35:56.4175 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:35:56.4362 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:35:56.4457 Info Configuration initialized.
+2021-11-09 11:35:56.4457 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:35:57.4113 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:35:57.4411 Info Logger has been shut down.
+2021-11-09 11:36:30.9232 Info Message Template Auto Format enabled
+2021-11-09 11:36:30.9272 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:36:30.9532 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:36:30.9532 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:36:30.9698 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:36:30.9786 Info Configuration initialized.
+2021-11-09 11:36:30.9786 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:36:42.4224 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:36:42.4309 Info Logger has been shut down.
+2021-11-09 11:42:09.9959 Info Message Template Auto Format enabled
+2021-11-09 11:42:09.9959 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:42:10.0280 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:42:10.0280 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:42:10.0454 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:42:10.0541 Info Configuration initialized.
+2021-11-09 11:42:10.0541 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:42:10.8687 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:42:10.8796 Info Logger has been shut down.
+2021-11-09 11:45:15.5735 Info Message Template Auto Format enabled
+2021-11-09 11:45:15.5735 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:45:15.6053 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:45:15.6053 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:45:15.6221 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:45:15.6315 Info Configuration initialized.
+2021-11-09 11:45:15.6315 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:45:16.0710 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:45:16.0710 Info Logger has been shut down.
+2021-11-09 11:48:25.9596 Info Message Template Auto Format enabled
+2021-11-09 11:48:25.9596 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:48:25.9891 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:48:25.9891 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:48:26.0054 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:48:26.0054 Info Configuration initialized.
+2021-11-09 11:48:26.0054 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:48:26.4912 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:48:26.4912 Info Logger has been shut down.
+2021-11-09 11:57:01.0054 Info Message Template Auto Format enabled
+2021-11-09 11:57:01.0054 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:57:01.0638 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:57:01.0655 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:57:01.0878 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:57:01.1000 Info Configuration initialized.
+2021-11-09 11:57:01.1000 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:57:01.9913 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:57:01.9913 Info Logger has been shut down.
+2021-11-09 11:57:12.0876 Info Message Template Auto Format enabled
+2021-11-09 11:57:12.0876 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:57:12.1210 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:57:12.1210 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:57:12.1380 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:57:12.1471 Info Configuration initialized.
+2021-11-09 11:57:12.1471 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:57:13.1021 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:57:13.1021 Info Logger has been shut down.
+2021-11-09 11:57:18.8660 Info Message Template Auto Format enabled
+2021-11-09 11:57:18.8660 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:57:18.8958 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:57:18.8958 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:57:18.9139 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:57:18.9263 Info Configuration initialized.
+2021-11-09 11:57:18.9263 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:57:19.6818 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:57:19.6818 Info Logger has been shut down.
+2021-11-09 11:57:58.2046 Info Message Template Auto Format enabled
+2021-11-09 11:57:58.2086 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-09 11:57:58.2339 Info Adding target FileTarget(Name=alldata)
+2021-11-09 11:57:58.2339 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-09 11:57:58.2500 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\Cv_Maker_API\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-09 11:57:58.2587 Info Configuration initialized.
+2021-11-09 11:57:58.2587 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-09 11:58:00.1385 Info AppDomain Shutting down. Logger closing...
+2021-11-09 11:58:00.1467 Info Logger has been shut down.
+2021-11-22 08:25:46.2472 Info Message Template Auto Format enabled
+2021-11-22 08:25:46.7084 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 08:25:47.1492 Info Adding target FileTarget(Name=alldata)
+2021-11-22 08:25:47.3195 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 08:25:47.5637 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 09:47:55.6946 Info Message Template Auto Format enabled
+2021-11-22 09:47:55.6946 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 09:47:55.7282 Info Adding target FileTarget(Name=alldata)
+2021-11-22 09:47:55.7282 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 09:47:55.7456 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-22 09:47:55.7456 Info Configuration initialized.
+2021-11-22 09:47:55.7561 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-22 09:47:57.2756 Info AppDomain Shutting down. Logger closing...
+2021-11-22 09:47:57.3221 Info Logger has been shut down.
+2021-11-22 09:48:29.4611 Info Message Template Auto Format enabled
+2021-11-22 09:48:29.4611 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 09:48:29.4906 Info Adding target FileTarget(Name=alldata)
+2021-11-22 09:48:29.4906 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 09:48:29.4906 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-22 09:48:29.5154 Info Configuration initialized.
+2021-11-22 09:48:29.5154 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-22 09:48:30.4698 Info AppDomain Shutting down. Logger closing...
+2021-11-22 09:48:30.4781 Info Logger has been shut down.
+2021-11-22 09:50:37.3015 Info Message Template Auto Format enabled
+2021-11-22 09:50:37.3065 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 09:50:37.3322 Info Adding target FileTarget(Name=alldata)
+2021-11-22 09:50:37.3322 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 09:50:37.3491 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\NLog.config
+2021-11-22 09:50:37.3491 Info Configuration initialized.
+2021-11-22 09:50:37.3491 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-11-22 09:50:47.5319 Info AppDomain Shutting down. Logger closing...
+2021-11-22 09:50:47.5399 Info Logger has been shut down.
+2021-11-22 11:09:36.5665 Info Message Template Auto Format enabled
+2021-11-22 11:09:36.6383 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 11:09:36.7529 Info Adding target FileTarget(Name=alldata)
+2021-11-22 11:09:36.7992 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 11:09:36.8280 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 11:12:51.7228 Info Message Template Auto Format enabled
+2021-11-22 11:12:51.7228 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 11:12:51.7678 Info Adding target FileTarget(Name=alldata)
+2021-11-22 11:12:51.7746 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 11:12:51.7935 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 11:19:31.4707 Info Message Template Auto Format enabled
+2021-11-22 11:19:31.4707 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 11:19:31.5101 Info Adding target FileTarget(Name=alldata)
+2021-11-22 11:19:31.5163 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 11:19:31.5361 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 11:23:56.4010 Info Message Template Auto Format enabled
+2021-11-22 11:23:56.4086 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 11:23:56.4571 Info Adding target FileTarget(Name=alldata)
+2021-11-22 11:23:56.4571 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 11:23:56.4926 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 11:25:51.0546 Info Message Template Auto Format enabled
+2021-11-22 11:25:51.0664 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 11:25:51.1274 Info Adding target FileTarget(Name=alldata)
+2021-11-22 11:25:51.1430 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 11:25:51.1864 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 11:47:52.3134 Info Message Template Auto Format enabled
+2021-11-22 11:47:52.4553 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 11:47:52.5249 Info Adding target FileTarget(Name=alldata)
+2021-11-22 11:47:52.5880 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 11:47:52.6203 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 12:05:24.0185 Info Message Template Auto Format enabled
+2021-11-22 12:05:24.0236 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 12:05:24.0577 Info Adding target FileTarget(Name=alldata)
+2021-11-22 12:05:24.0577 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 12:05:24.0829 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 12:09:12.4824 Info Message Template Auto Format enabled
+2021-11-22 12:09:12.4901 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 12:09:12.5446 Info Adding target FileTarget(Name=alldata)
+2021-11-22 12:09:12.5522 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 12:09:12.5736 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 12:12:46.8435 Info Message Template Auto Format enabled
+2021-11-22 12:12:46.8490 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 12:12:46.8881 Info Adding target FileTarget(Name=alldata)
+2021-11-22 12:12:46.8947 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 12:12:46.9200 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 12:13:52.0829 Info Message Template Auto Format enabled
+2021-11-22 12:13:52.0829 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 12:13:52.1437 Info Adding target FileTarget(Name=alldata)
+2021-11-22 12:13:52.1594 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 12:13:52.1852 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 13:42:19.5302 Info Message Template Auto Format enabled
+2021-11-22 13:42:19.6595 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 13:42:19.8054 Info Adding target FileTarget(Name=alldata)
+2021-11-22 13:42:19.8579 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 13:42:19.8768 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 13:54:40.8259 Info Message Template Auto Format enabled
+2021-11-22 13:54:40.8322 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 13:54:40.8727 Info Adding target FileTarget(Name=alldata)
+2021-11-22 13:54:40.8785 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 13:54:40.8989 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 14:06:44.0114 Info Message Template Auto Format enabled
+2021-11-22 14:06:44.0184 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 14:06:44.0604 Info Adding target FileTarget(Name=alldata)
+2021-11-22 14:06:44.0686 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 14:06:44.0991 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 14:08:48.8746 Info Message Template Auto Format enabled
+2021-11-22 14:08:48.8817 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 14:08:49.0193 Info Adding target FileTarget(Name=alldata)
+2021-11-22 14:08:49.0732 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 14:08:49.1012 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-22 14:11:21.8716 Info Message Template Auto Format enabled
+2021-11-22 14:11:21.8826 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-22 14:11:21.9337 Info Adding target FileTarget(Name=alldata)
+2021-11-22 14:11:21.9410 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-22 14:11:21.9722 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-24 23:49:02.8679 Info Message Template Auto Format enabled
+2021-11-24 23:49:02.8756 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-24 23:49:02.9250 Info Adding target FileTarget(Name=alldata)
+2021-11-24 23:49:02.9476 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-24 23:49:02.9654 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\moham\Source\Repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-24 23:53:48.0208 Info Message Template Auto Format enabled
+2021-11-24 23:53:48.0273 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-24 23:53:48.0666 Info Adding target FileTarget(Name=alldata)
+2021-11-24 23:53:48.0666 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-24 23:53:48.0859 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\moham\Source\Repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-11-25 00:00:53.5441 Info Message Template Auto Format enabled
+2021-11-25 00:00:53.5506 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-25 00:00:53.5790 Info Adding target FileTarget(Name=alldata)
+2021-11-25 00:00:53.5813 Info Adding target FileTarget(Name=otherFile-web)
+2021-11-25 00:00:53.5971 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\moham\Source\Repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-12-05 09:28:21.0803 Info Message Template Auto Format enabled
+2021-12-05 09:28:21.1288 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-05 09:28:21.1782 Info Adding target FileTarget(Name=alldata)
+2021-12-05 09:28:21.2071 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-05 09:28:21.2245 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\mohamed.gt\source\repos\HallReservationAPI\WebApi\bin\Debug\net6.0\nlog.config
+2021-12-21 10:54:25.1512 Info Message Template Auto Format enabled
+2021-12-21 10:54:25.4590 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 10:54:25.6457 Info Adding target FileTarget(Name=alldata)
+2021-12-21 10:54:25.7370 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 10:54:25.7582 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\nlog.config
+2021-12-21 10:56:53.1304 Info Message Template Auto Format enabled
+2021-12-21 10:56:53.1304 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 10:56:53.1595 Info Adding target FileTarget(Name=alldata)
+2021-12-21 10:56:53.1595 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 10:56:53.1749 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\NLog.config
+2021-12-21 10:56:53.1749 Info Configuration initialized.
+2021-12-21 10:56:53.1749 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-12-21 10:56:54.6810 Info AppDomain Shutting down. Logger closing...
+2021-12-21 10:56:54.6909 Info Logger has been shut down.
+2021-12-21 10:58:18.4204 Info Message Template Auto Format enabled
+2021-12-21 10:58:18.4246 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 10:58:18.4490 Info Adding target FileTarget(Name=alldata)
+2021-12-21 10:58:18.4490 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 10:58:18.4645 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\NLog.config
+2021-12-21 10:58:18.4727 Info Configuration initialized.
+2021-12-21 10:58:18.4727 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-12-21 10:58:19.1254 Info AppDomain Shutting down. Logger closing...
+2021-12-21 10:58:19.1254 Info Logger has been shut down.
+2021-12-21 10:58:36.5885 Info Message Template Auto Format enabled
+2021-12-21 10:58:36.5885 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 10:58:36.6189 Info Adding target FileTarget(Name=alldata)
+2021-12-21 10:58:36.6189 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 10:58:36.6347 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\NLog.config
+2021-12-21 10:58:36.6432 Info Configuration initialized.
+2021-12-21 10:58:36.6432 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-12-21 10:58:37.6740 Info AppDomain Shutting down. Logger closing...
+2021-12-21 10:58:37.6740 Info Logger has been shut down.
+2021-12-21 10:59:07.3083 Info Message Template Auto Format enabled
+2021-12-21 10:59:07.3083 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 10:59:07.3393 Info Adding target FileTarget(Name=alldata)
+2021-12-21 10:59:07.3393 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 10:59:07.3555 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\NLog.config
+2021-12-21 10:59:07.3639 Info Configuration initialized.
+2021-12-21 10:59:07.3639 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-12-21 10:59:23.6042 Info AppDomain Shutting down. Logger closing...
+2021-12-21 10:59:23.6122 Info Logger has been shut down.
+2021-12-21 11:06:49.9339 Info Message Template Auto Format enabled
+2021-12-21 11:06:49.9387 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 11:06:49.9653 Info Adding target FileTarget(Name=alldata)
+2021-12-21 11:06:49.9653 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 11:06:49.9838 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\NLog.config
+2021-12-21 11:06:49.9838 Info Configuration initialized.
+2021-12-21 11:06:49.9838 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-12-21 11:06:50.8402 Info AppDomain Shutting down. Logger closing...
+2021-12-21 11:06:50.8481 Info Logger has been shut down.
+2021-12-21 11:07:51.8198 Info Message Template Auto Format enabled
+2021-12-21 11:07:51.8198 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 11:07:51.8495 Info Adding target FileTarget(Name=alldata)
+2021-12-21 11:07:51.8495 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 11:07:51.8647 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\NLog.config
+2021-12-21 11:07:51.8647 Info Configuration initialized.
+2021-12-21 11:07:51.8647 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-12-21 11:07:53.0762 Info AppDomain Shutting down. Logger closing...
+2021-12-21 11:07:53.0840 Info Logger has been shut down.
+2021-12-21 14:11:31.0838 Info Message Template Auto Format enabled
+2021-12-21 14:11:31.1245 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 14:11:31.1650 Info Adding target FileTarget(Name=alldata)
+2021-12-21 14:11:31.1650 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 14:11:31.1896 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\nlog.config
+2021-12-21 14:12:22.0192 Info Message Template Auto Format enabled
+2021-12-21 14:12:22.0251 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 14:12:22.0585 Info Adding target FileTarget(Name=alldata)
+2021-12-21 14:12:22.0585 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 14:12:22.0854 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\nlog.config
+2021-12-21 14:15:57.7325 Info Message Template Auto Format enabled
+2021-12-21 14:15:57.7325 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 14:15:57.7890 Info Adding target FileTarget(Name=alldata)
+2021-12-21 14:15:57.8015 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 14:15:57.8257 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\nlog.config
+2021-12-21 14:18:01.7159 Info Message Template Auto Format enabled
+2021-12-21 14:18:01.7159 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-21 14:18:01.7678 Info Adding target FileTarget(Name=alldata)
+2021-12-21 14:18:01.7791 Info Adding target FileTarget(Name=otherFile-web)
+2021-12-21 14:18:01.8050 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=E:\DotNet5\GymMS\WebApi\bin\Debug\net6.0\nlog.config
