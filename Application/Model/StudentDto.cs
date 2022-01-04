@@ -1,4 +1,5 @@
 ﻿
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 
@@ -21,6 +22,7 @@ public class StudentDto
 public class StudentBaseModel : BaseModel
 {
     public StudentDto Data { get; set; }
+    public Student Studentdb { get; set; }
 }
 public class StudentsBaseModel : BaseModel
 {

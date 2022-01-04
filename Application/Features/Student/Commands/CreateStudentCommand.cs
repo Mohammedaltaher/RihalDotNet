@@ -3,6 +3,7 @@ using Application.Model;
 using AutoMapper;
 using Domain.Entities;
 using MediatR;
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -10,6 +11,9 @@ namespace Application.Features.StudentFeatures.Commands;
 public class CreateStudentCommand : IRequest<StudentBaseModel>
 {
     public string Name { get; set; }
+    public int ClassId { get; set; }
+    public int CountryId { get; set; }
+    public DateTime Birth_Date { get; set; }
     public class CreateStudentCommandHandler : IRequestHandler<CreateStudentCommand, StudentBaseModel>
     {
         private readonly IApplicationDbContext _context;

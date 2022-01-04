@@ -499,3 +499,168 @@
 2022-01-03 01:26:56.2600 Info Adding target FileTarget(Name=alldata)
 2022-01-03 01:26:56.2600 Info Adding target FileTarget(Name=otherFile-web)
 2022-01-03 01:26:56.2766 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 01:05:44.0462 Info Message Template Auto Format enabled
+2022-01-04 01:05:44.0462 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 01:05:44.1039 Info Adding target FileTarget(Name=alldata)
+2022-01-04 01:05:44.1459 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 01:05:44.1667 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 01:06:28.3659 Info Message Template Auto Format enabled
+2022-01-04 01:06:28.3659 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 01:06:28.4123 Info Adding target FileTarget(Name=alldata)
+2022-01-04 01:06:28.4123 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 01:06:28.4424 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 01:07:26.8484 Info Message Template Auto Format enabled
+2022-01-04 01:07:26.8484 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 01:07:26.8955 Info Adding target FileTarget(Name=alldata)
+2022-01-04 01:07:26.8955 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 01:07:26.9223 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 17:31:21.2608 Info Message Template Auto Format enabled
+2022-01-04 17:31:21.2697 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 17:31:21.3240 Info Adding target FileTarget(Name=alldata)
+2022-01-04 17:31:21.3501 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 17:31:21.3681 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 17:33:45.2176 Info Message Template Auto Format enabled
+2022-01-04 17:33:45.2176 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 17:33:45.2585 Info Adding target FileTarget(Name=alldata)
+2022-01-04 17:33:45.2642 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 17:33:45.2874 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:13:22.3710 Info Message Template Auto Format enabled
+2022-01-04 18:13:22.3805 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:13:22.4306 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:13:22.4386 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:13:22.4629 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:32:34.0358 Info Message Template Auto Format enabled
+2022-01-04 18:32:34.0358 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:32:34.0782 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:32:34.0782 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:32:34.1022 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:34:13.9463 Info Message Template Auto Format enabled
+2022-01-04 18:34:13.9514 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:34:13.9899 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:34:14.0008 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:34:14.0188 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:37:19.9182 Info Message Template Auto Format enabled
+2022-01-04 18:37:19.9236 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:37:19.9607 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:37:19.9607 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:37:19.9829 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:39:16.7704 Info Message Template Auto Format enabled
+2022-01-04 18:39:16.7704 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:39:16.8103 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:39:16.8103 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:39:16.8329 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:42:19.9249 Info Message Template Auto Format enabled
+2022-01-04 18:42:19.9249 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:42:19.9787 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:42:19.9858 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:42:20.0068 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:51:25.1986 Info Message Template Auto Format enabled
+2022-01-04 18:51:25.2037 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:51:25.2486 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:51:25.2486 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:51:25.2785 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:52:25.9401 Info Message Template Auto Format enabled
+2022-01-04 18:52:25.9401 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:52:25.9854 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:52:25.9854 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:52:26.0072 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:55:20.9615 Info Message Template Auto Format enabled
+2022-01-04 18:55:20.9615 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:55:21.0046 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:55:21.0046 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:55:21.0302 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:57:21.0580 Info Message Template Auto Format enabled
+2022-01-04 18:57:21.0634 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:57:21.0991 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:57:21.0991 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:57:21.1210 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 18:58:43.2803 Info Message Template Auto Format enabled
+2022-01-04 18:58:43.2803 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 18:58:43.3266 Info Adding target FileTarget(Name=alldata)
+2022-01-04 18:58:43.3266 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 18:58:43.3507 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:02:11.3172 Info Message Template Auto Format enabled
+2022-01-04 19:02:11.3172 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:02:11.3635 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:02:11.3635 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:02:11.3949 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:03:50.0380 Info Message Template Auto Format enabled
+2022-01-04 19:03:50.0469 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:03:50.1118 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:03:50.1230 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:03:50.1545 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:06:06.8204 Info Message Template Auto Format enabled
+2022-01-04 19:06:06.8462 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:06:06.9225 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:06:06.9225 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:06:06.9913 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:07:22.1877 Info Message Template Auto Format enabled
+2022-01-04 19:07:22.1877 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:07:22.2283 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:07:22.2336 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:07:22.2522 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:10:05.4568 Info Message Template Auto Format enabled
+2022-01-04 19:10:05.4568 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:10:05.5042 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:10:05.5042 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:10:05.5290 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:18:29.7919 Info Message Template Auto Format enabled
+2022-01-04 19:18:29.7976 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:18:29.8362 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:18:29.8421 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:18:29.8620 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:22:28.6049 Info Message Template Auto Format enabled
+2022-01-04 19:22:28.6339 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:22:28.7732 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:22:28.8599 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:22:28.9645 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:39:48.3437 Info Message Template Auto Format enabled
+2022-01-04 19:39:48.3437 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:39:48.3848 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:39:48.3906 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:39:48.4097 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:40:38.6927 Info Message Template Auto Format enabled
+2022-01-04 19:40:38.6927 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:40:38.7334 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:40:38.7334 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:40:38.7553 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:52:27.4910 Info Message Template Auto Format enabled
+2022-01-04 19:52:27.4910 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:52:27.5419 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:52:27.5486 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:52:27.5646 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 19:59:15.8815 Info Message Template Auto Format enabled
+2022-01-04 19:59:15.8815 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 19:59:15.9220 Info Adding target FileTarget(Name=alldata)
+2022-01-04 19:59:15.9220 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 19:59:15.9433 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 20:06:40.7434 Info Message Template Auto Format enabled
+2022-01-04 20:06:40.7485 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 20:06:40.7870 Info Adding target FileTarget(Name=alldata)
+2022-01-04 20:06:40.7870 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 20:06:40.8137 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 20:07:18.0395 Info Message Template Auto Format enabled
+2022-01-04 20:07:18.0445 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 20:07:18.0827 Info Adding target FileTarget(Name=alldata)
+2022-01-04 20:07:18.0827 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 20:07:18.1126 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 20:11:15.3102 Info Message Template Auto Format enabled
+2022-01-04 20:11:15.3102 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 20:11:15.3523 Info Adding target FileTarget(Name=alldata)
+2022-01-04 20:11:15.3588 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 20:11:15.3759 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 20:13:13.0531 Info Message Template Auto Format enabled
+2022-01-04 20:13:13.0531 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 20:13:13.0963 Info Adding target FileTarget(Name=alldata)
+2022-01-04 20:13:13.0963 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 20:13:13.1241 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 20:14:45.4372 Info Message Template Auto Format enabled
+2022-01-04 20:14:45.4372 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 20:14:45.4828 Info Adding target FileTarget(Name=alldata)
+2022-01-04 20:14:45.4828 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 20:14:45.5057 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2022-01-04 20:20:55.6024 Info Message Template Auto Format enabled
+2022-01-04 20:20:55.6145 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-04 20:20:55.7241 Info Adding target FileTarget(Name=alldata)
+2022-01-04 20:20:55.7446 Info Adding target FileTarget(Name=otherFile-web)
+2022-01-04 20:20:55.8208 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config

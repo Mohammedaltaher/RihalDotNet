@@ -36,6 +36,7 @@ public class GetStudentByIdQuery : IRequest<StudentBaseModel>
             return Task.FromResult(new StudentBaseModel
             {
                 Data = _mapper.Map<StudentDto>(Student),
+                Studentdb = Student,
                 StatusCode = 200,
                 Messege = "Data found"
             });

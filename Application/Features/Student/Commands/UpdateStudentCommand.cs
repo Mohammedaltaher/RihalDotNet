@@ -37,8 +37,9 @@ public class UpdateStudentCommand : IRequest<StudentBaseModel>
             }
             else
             {
-                Student = _mapper.Map<Student>(command);
-                //    _context.Students.Update(Student);
+               // Student = _mapper.Map<Student>(command);
+                // _context.Students.Update(Student);
+               Student.Name = command.Name;
                 await _context.SaveChangesAsync();
                 return new StudentBaseModel
                 {

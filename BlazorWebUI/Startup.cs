@@ -1,5 +1,6 @@
 using Application.Model;
 using BlazorWebUI.Data;
+using MudBlazor.Services;
 using Persistence;
 
 namespace BlazorWebUI;
@@ -18,7 +19,7 @@ public class Startup
         services.AddServerSideBlazor();
         services.AddSingleton<WeatherForecastService>();
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
+        services.AddMudServices();
         #region options Pattren
         JWTOptions jWTOptions = new();
         Configuration.GetSection(JWTOptions.JWT).Bind(jWTOptions);
