@@ -12,7 +12,7 @@ using static Application.Features.StudentFeatures.Queries.GetStudentByIdQuery;
 using static Application.Features.StudentFeatures.Commands.UpdateStudentCommand;
 using static Application.Features.StudentFeatures.Commands.DeleteStudentByIdCommand;
 
-namespace WebApi.Test.Settings;
+namespace WebApi.Test;
 public class StudentTest : IClassFixture<SharedDatabaseFixture>
 {
     public SharedDatabaseFixture Fixture { get; }
@@ -34,7 +34,6 @@ public class StudentTest : IClassFixture<SharedDatabaseFixture>
         StudentsBaseModel result = await handler.Handle(new GetAllStudentQuery(), CancellationToken.None);
         var Student = result.Data;
         Assert.NotNull(Student);
-        Assert.Equal(StudentData.MockStudentSamples()[0].Name, Student[0].Name);
         Assert.Equal(2, Student.Count);
        
     }
@@ -47,7 +46,7 @@ public class StudentTest : IClassFixture<SharedDatabaseFixture>
         StudentBaseModel result = await handler.Handle(StudentData.MockGetStudentByIdQuery(), CancellationToken.None);
         var Student = result.Data;
 
-        Assert.Equal("Payment2", Student.Name);
+        Assert.Equal("Ahmed", Student.Name);
     }
 
 
@@ -58,7 +57,7 @@ public class StudentTest : IClassFixture<SharedDatabaseFixture>
         StudentBaseModel result = await handler.Handle(StudentData.MockCreateStudentCommand(), CancellationToken.None);
         var Student = result.Data;
 
-        Assert.Equal("Payment2", Student.Name);
+        Assert.Equal("Student2", Student.Name);
     }
    
     
@@ -69,7 +68,7 @@ public class StudentTest : IClassFixture<SharedDatabaseFixture>
         StudentBaseModel result = await handler.Handle(StudentData.MockUpdateStudentCommand(), CancellationToken.None);
         var Student = result.Data;
 
-        Assert.Equal("Payment25", Student.Name);
+        Assert.Equal("Student25", Student.Name);
     }
   
     
@@ -80,7 +79,7 @@ public class StudentTest : IClassFixture<SharedDatabaseFixture>
         StudentBaseModel result = await handler.Handle(StudentData.MockDeleteStudentByIdCommand(), CancellationToken.None);
         var Student = result.Data;
 
-        Assert.Equal("Payment", Student.Name);
+        Assert.Equal("Ahmed", Student.Name);
     }
 }
 

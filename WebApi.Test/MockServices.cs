@@ -10,6 +10,8 @@ public static class MockServices
         var mappingConfig = new MapperConfiguration(profile =>
         {
             profile.AddProfile(new StudentProfile());
+            profile.AddProfile(new CountryProfile());
+            profile.AddProfile(new ClassProfile());
         });
         var moq = mappingConfig.CreateMapper();
         return moq;

@@ -3,7 +3,7 @@ using Application.Features.StudentFeatures.Commands;
 using Application.Features.StudentFeatures.Queries;
 using Domain.Entities;
 
-namespace WebApi.Test.Settings;
+namespace WebApi.Test;
 public static class StudentData
 {
     public static List<Student> MockStudentSamples()
@@ -12,11 +12,11 @@ public static class StudentData
             {
                 new Student()
                 {
-                    Name = "Payment2",
+                    Name = "Student2",
                 },
                 new Student()
                 {
-                    Name = "Payment",
+                    Name = "Student",
                 }
             };
 
@@ -33,7 +33,7 @@ public static class StudentData
     {
         return new CreateStudentCommand()
         {
-            Name = "Payment2",
+            Name = "Student2",
         };
     }
     public static UpdateStudentCommand MockUpdateStudentCommand()
@@ -41,14 +41,14 @@ public static class StudentData
         return new UpdateStudentCommand()
         {
             Id = 1,
-            Name = "Payment25",
+            Name = "Student25",
         };
     }
     public static DeleteStudentByIdCommand MockDeleteStudentByIdCommand()
     {
         return new DeleteStudentByIdCommand()
         {
-            Id = 2
+            Id = 1
         };
     }
 

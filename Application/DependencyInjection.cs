@@ -13,6 +13,8 @@ public static class DependencyInjection
         var mapperConfig = new MapperConfiguration(profile =>
         {
             profile.AddProfile(new StudentProfile());
+            profile.AddProfile(new CountryProfile());
+            profile.AddProfile(new ClassProfile());
         });
 
         IMapper mapper = mapperConfig.CreateMapper();

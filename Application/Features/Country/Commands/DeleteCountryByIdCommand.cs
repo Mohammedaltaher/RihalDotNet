@@ -8,37 +8,37 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Application.Features.StudentFeatures.Commands;
-public class DeleteStudentByIdCommand : IRequest<StudentBaseModel>
+namespace Application.Features.CountryFeatures.Commands;
+public class DeleteCountryByIdCommand : IRequest<CountryBaseModel>
 {
     public int Id { get; set; }
-    public class DeleteStudentByIdCommandHandler : IRequestHandler<DeleteStudentByIdCommand, StudentBaseModel>
+    public class DeleteCountryByIdCommandHandler : IRequestHandler<DeleteCountryByIdCommand, CountryBaseModel>
     {
         private readonly IApplicationDbContext _context;
         private readonly IMapper _mapper;
-        public DeleteStudentByIdCommandHandler(IApplicationDbContext context, IMapper mapper)
+        public DeleteCountryByIdCommandHandler(IApplicationDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
-        public async Task<StudentBaseModel> Handle(DeleteStudentByIdCommand command, CancellationToken cancellationToken)
+        public async Task<CountryBaseModel> Handle(DeleteCountryByIdCommand command, CancellationToken cancellationToken)
         {
-            var Student =  _context.students.Where(a => a.Id == command.Id).FirstOrDefault();
-            if (Student == null)
+            var Country =  _context.countries.Where(a => a.Id == command.Id).FirstOrDefault();
+            if (Country == null)
             {
-                return new StudentBaseModel
+                return new CountryBaseModel
                 {
                     Data = null,
                     StatusCode = 404,
                     Messege = "No data found"
                 };
             };
-            Student.IsDeleted = true;
-            //    _context.Students.Update(Student);
+            Country.IsDeleted = true;
+            //    _context.Countrys.Update(Country);
             await _context.SaveChangesAsync();
-            return new StudentBaseModel
+            return new CountryBaseModel
             {
-                Data = _mapper.Map<StudentDto>(Student),
+                Data = _mapper.Map<CountryDto>(Country),
                 StatusCode = 200,
                 Messege = "Data has been Deleted"
             };

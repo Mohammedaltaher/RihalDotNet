@@ -8,40 +8,38 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Application.Features.StudentFeatures.Queries;
-public class GetAllStudentQuery : IRequest<StudentsBaseModel>
+namespace Application.Features.CountryFeatures.Queries;
+public class GetAllCountryQuery : IRequest<CountrysBaseModel>
 {
 
-    public class GetAllStudentsQueryHandler : IRequestHandler<GetAllStudentQuery, StudentsBaseModel>
+    public class GetAllCountrysQueryHandler : IRequestHandler<GetAllCountryQuery, CountrysBaseModel>
     {
         private readonly IApplicationDbContext _context;
         private readonly IMapper _mapper;
-        public GetAllStudentsQueryHandler(IApplicationDbContext context, IMapper mapper)
+        public GetAllCountrysQueryHandler(IApplicationDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
-        public async Task<StudentsBaseModel> Handle(GetAllStudentQuery query, CancellationToken cancellationToken)
+        public async Task<CountrysBaseModel> Handle(GetAllCountryQuery query, CancellationToken cancellationToken)
         {
-            var StudentList = await _context.students
+            var CountryList = await _context.countries
                 .AsNoTracking()
-                .Include(x=>x.Country)
-                .Include(x=>x.Class)
                 .Where(x=>!x.IsDeleted)
                 .ToListAsync(cancellationToken: cancellationToken);
 
-            if (StudentList == null)
+            if (CountryList == null)
             {
-                return new StudentsBaseModel
+                return new CountrysBaseModel
                 {
                     Data = null,
                     StatusCode = 200,
                     Messege = "No data found"
                 };
             }
-            return new StudentsBaseModel
+            return new CountrysBaseModel
             {
-                Data = _mapper.Map<List<StudentDto>>(StudentList),
+                Data = _mapper.Map<List<CountryDto>>(CountryList),
                 StatusCode = 200,
                 Messege = "Data found"
             };

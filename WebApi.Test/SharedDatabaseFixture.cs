@@ -1,7 +1,6 @@
 using System.Data.Common;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
-using WebApi.Test.Settings;
 
 namespace WebApi.Test;
 public class SharedDatabaseFixture 
@@ -22,6 +21,8 @@ public class SharedDatabaseFixture
                     context.Database.EnsureCreated();
 
                     context.AddRange(StudentData.MockStudentSamples());
+                    context.AddRange(CountryData.MockCountrySamples());
+                    context.AddRange(ClassData.MockClassSamples());
                     context.SaveChanges();
                 }
                 _databaseInitialized = true;

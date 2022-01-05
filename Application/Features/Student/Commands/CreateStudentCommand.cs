@@ -13,7 +13,7 @@ public class CreateStudentCommand : IRequest<StudentBaseModel>
     public string Name { get; set; }
     public int ClassId { get; set; }
     public int CountryId { get; set; }
-    public DateTime Birth_Date { get; set; }
+    public DateTime? Birth_Date { get; set; }
     public class CreateStudentCommandHandler : IRequestHandler<CreateStudentCommand, StudentBaseModel>
     {
         private readonly IApplicationDbContext _context;

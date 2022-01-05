@@ -8,37 +8,37 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Application.Features.StudentFeatures.Commands;
-public class DeleteStudentByIdCommand : IRequest<StudentBaseModel>
+namespace Application.Features.ClassFeatures.Commands;
+public class DeleteClassByIdCommand : IRequest<ClassBaseModel>
 {
     public int Id { get; set; }
-    public class DeleteStudentByIdCommandHandler : IRequestHandler<DeleteStudentByIdCommand, StudentBaseModel>
+    public class DeleteClassByIdCommandHandler : IRequestHandler<DeleteClassByIdCommand, ClassBaseModel>
     {
         private readonly IApplicationDbContext _context;
         private readonly IMapper _mapper;
-        public DeleteStudentByIdCommandHandler(IApplicationDbContext context, IMapper mapper)
+        public DeleteClassByIdCommandHandler(IApplicationDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
-        public async Task<StudentBaseModel> Handle(DeleteStudentByIdCommand command, CancellationToken cancellationToken)
+        public async Task<ClassBaseModel> Handle(DeleteClassByIdCommand command, CancellationToken cancellationToken)
         {
-            var Student =  _context.students.Where(a => a.Id == command.Id).FirstOrDefault();
-            if (Student == null)
+            var Class =  _context.classes.Where(a => a.Id == command.Id).FirstOrDefault();
+            if (Class == null)
             {
-                return new StudentBaseModel
+                return new ClassBaseModel
                 {
                     Data = null,
                     StatusCode = 404,
                     Messege = "No data found"
                 };
             };
-            Student.IsDeleted = true;
-            //    _context.Students.Update(Student);
+            Class.IsDeleted = true;
+            //    _context.Classs.Update(Class);
             await _context.SaveChangesAsync();
-            return new StudentBaseModel
+            return new ClassBaseModel
             {
-                Data = _mapper.Map<StudentDto>(Student),
+                Data = _mapper.Map<ClassDto>(Class),
                 StatusCode = 200,
                 Messege = "Data has been Deleted"
             };

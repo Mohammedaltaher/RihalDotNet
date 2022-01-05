@@ -8,40 +8,38 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Application.Features.StudentFeatures.Queries;
-public class GetAllStudentQuery : IRequest<StudentsBaseModel>
+namespace Application.Features.ClassFeatures.Queries;
+public class GetAllClassQuery : IRequest<ClasssBaseModel>
 {
 
-    public class GetAllStudentsQueryHandler : IRequestHandler<GetAllStudentQuery, StudentsBaseModel>
+    public class GetAllClasssQueryHandler : IRequestHandler<GetAllClassQuery, ClasssBaseModel>
     {
         private readonly IApplicationDbContext _context;
         private readonly IMapper _mapper;
-        public GetAllStudentsQueryHandler(IApplicationDbContext context, IMapper mapper)
+        public GetAllClasssQueryHandler(IApplicationDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
-        public async Task<StudentsBaseModel> Handle(GetAllStudentQuery query, CancellationToken cancellationToken)
+        public async Task<ClasssBaseModel> Handle(GetAllClassQuery query, CancellationToken cancellationToken)
         {
-            var StudentList = await _context.students
+            var ClassList = await _context.classes
                 .AsNoTracking()
-                .Include(x=>x.Country)
-                .Include(x=>x.Class)
                 .Where(x=>!x.IsDeleted)
                 .ToListAsync(cancellationToken: cancellationToken);
 
-            if (StudentList == null)
+            if (ClassList == null)
             {
-                return new StudentsBaseModel
+                return new ClasssBaseModel
                 {
                     Data = null,
                     StatusCode = 200,
                     Messege = "No data found"
                 };
             }
-            return new StudentsBaseModel
+            return new ClasssBaseModel
             {
-                Data = _mapper.Map<List<StudentDto>>(StudentList),
+                Data = _mapper.Map<List<ClassDto>>(ClassList),
                 StatusCode = 200,
                 Messege = "Data found"
             };
