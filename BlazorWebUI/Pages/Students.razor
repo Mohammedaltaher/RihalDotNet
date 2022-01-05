@@ -1,11 +1,13 @@
 ﻿@page "/Students"
 @using Application.Features.StudentFeatures.Commands
+@using Application.Features.CountryFeatures.Queries
+@using Application.Features.ClassFeatures.Queries
 @using Domain.Entities
 @using static Application.Features.StudentFeatures.Commands.CreateStudentCommand
-
 <PageTitle>Student </PageTitle>
 @inject IMediator Mediator;
 @inject MudBlazor.ISnackbar snackBar;
+@inject NavigationManager uriHelper;
 <MudCard Elevation="25">
     <MudCardHeader>
         <CardHeaderContent>
@@ -15,14 +17,14 @@
     <MudCardContent>
         <MudTextField @bind-Value="student.Name" Label=" Name" Variant="Variant.Text" Margin="Margin.Normal"></MudTextField>
         <MudDatePicker @bind-Date="student.Birth_Date" Label="Birth Date" Margin="Margin.Normal" />
-        <MudSelect T="Country" Label="Select Country" Variant="Variant.Text" Margin="Margin.Normal">
-            @foreach (Country item in Countries)
+        <MudSelect T="CountryDto" Label="Select Country" Variant="Variant.Text" Margin="Margin.Normal">
+            @foreach (CountryDto item in Countries)
             {
                 <MudSelectItem Value="@item">@item.Name</MudSelectItem>
             }
         </MudSelect>
-        <MudSelect T="Class" Label="Select Class" Variant="Variant.Text" Margin="Margin.Normal">
-            @foreach (Class item in Classes)
+        <MudSelect T="ClassDto" Label="Select Class" Variant="Variant.Text" Margin="Margin.Normal">
+            @foreach (ClassDto item in Classes)
             {
                 <MudSelectItem Value="@item">@item.Name</MudSelectItem>
             }
@@ -33,7 +35,7 @@
 </MudCard>
 <br />
 
-<MudTable Elevation="25" Items="BindStudent()" Filter="new Func<StudentDto, bool>(Search)" @bind-customer="student">
+<MudTable Elevation="25" Items="students" Filter="new Func<StudentDto, bool>(Search)" @bind-customer="student">
     <ToolBarContent>
         <MudText Typo="Typo.h6">Students</MudText>
         <MudSpacer></MudSpacer>
@@ -70,38 +72,21 @@
     private CreateStudentCommand student = new(); //C# 9 Syntax
     private GetStudentByIdQuery GetStudentById = new();
     private List<StudentDto> students = new();
-    private List<Country> Countries = new();
+    private List<CountryDto> Countries = new();
+    private List<ClassDto> Classes = new();
     private bool hideElment = false;
 
-    private List<Class> Classes = new();
     private int CurrentStudentId = 0;
     protected override async Task OnInitializedAsync()
     {
         student.CountryId = 1;
-        student.ClassId = 1;
+        student.ClassId = 2;
         StudentsBaseModel? obj = await Mediator.Send(new GetAllStudentQuery());
         students = obj.Data;
 
-        Countries.Add(new Country()
-            {
-                Id = 1,
-                Name = "Sudan"
-            });
-        Countries.Add(new Country()
-            {
-                Id = 1,
-                Name = "UAE"
-            });
-        Classes.Add(new Class()
-            {
-                Id = 1,
-                Name = "Sudan"
-            });
-        Classes.Add(new Class()
-            {
-                Id = 1,
-                Name = "UAE"
-            });
+        Countries = (await Mediator.Send(new GetAllCountryQuery())).Data;
+        Classes = (await Mediator.Send(new GetAllClassQuery())).Data;
+
     }
 
     private async Task GetAllStudents()
@@ -112,7 +97,6 @@
     }
     private List<StudentDto> BindStudent()
     {
-        GetAllStudents();
         return students;
     }
     private bool Search(StudentDto student)
@@ -139,8 +123,7 @@
             var obj = await Mediator.Send(new UpdateStudentCommand() { Id = CurrentStudentId, Name = student.Name });
             snackBar.Add("Student record Updated", Severity.Success);
         }
-
-        GetAllStudents();
+        uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
     }
     private async void Edit(int id)
     {
@@ -155,6 +138,6 @@
     {
         StudentBaseModel obj = await Mediator.Send(new DeleteStudentByIdCommand() { Id = id });
         snackBar.Add("Customer Data Deleted.", Severity.Success);
-        GetAllStudents();
+        uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
     }
 }

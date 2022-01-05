@@ -16,5 +16,9 @@ public class StudentProfile : Profile
         CreateMap<Student, StudentDto>()
             .ForMember(from => from.ClassName, to => to.MapFrom(value => value.Class.Name))
             .ForMember(from => from.CountryName, to => to.MapFrom(value => value.Country.Name));
+
+        CreateMap<Student, StudentsPerCountryDto>()
+           .ForMember(from => from.CountryName, to => to.MapFrom(value => value.Class.Name))
+           .ForMember(from => from.NoStudents, to => to.MapFrom(value => value.Country.Name));
     }
 }

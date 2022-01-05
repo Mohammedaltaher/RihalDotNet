@@ -1,29 +1,71 @@
 ﻿@page "/"
 
 <PageTitle>Index</PageTitle>
+@using Application.Features.StudentFeatures.Commands
+@using Application.Features.CountryFeatures.Queries
+@using Application.Features.ClassFeatures.Queries
+@using Domain.Entities
+@using static Application.Features.StudentFeatures.Commands.CreateStudentCommand
+@inject IMediator Mediator;
+@inject MudBlazor.ISnackbar snackBar;
+<MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+    <MudGrid>
+        <MudItem xs="12" sm="6" md="4">
+                <MudTable Elevation="25" Class="pa-4" Items="StudentPerCountryRrport">
+                    <ToolBarContent>
+                        <MudText Typo="Typo.h6">Count of students per country </MudText>
+                        <MudSpacer></MudSpacer>
+                    </ToolBarContent>
+                    <HeaderContent>
+                        <MudTh>Country</MudTh>
+                        <MudTh>No Of Student</MudTh>
+                    </HeaderContent>
+                    <RowTemplate>
+                        <MudTd DataLabel="Country">@context.CountryName</MudTd>
+                        <MudTd DataLabel="No Of Student">@context.NoStudents</MudTd>
+                    </RowTemplate>
 
-<!-- Content Header (Page header) -->
-<div class="content-header">
-    <div class="container-fluid">
-        <div class="row mb-2">
-            <div class="col-sm-6">
-                <h1 class="m-0">Hello, world</h1>
-            </div><!-- /.col -->
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Dashboard v1</li>
-                </ol>
-            </div><!-- /.col -->
-        </div><!-- /.row -->
-    </div><!-- /.container-fluid -->
-</div>
-<!-- /.content-header -->
-<!-- Main content -->
+                </MudTable>
+        </MudItem>
+       <MudItem xs="12" sm="6" md="4">
+                <MudTable Elevation="25" Class="pa-4" Items="StudentPerClassRrport">
+                    <ToolBarContent>
+                        <MudText Typo="Typo.h6">Count of students per Class </MudText>
+                        <MudSpacer></MudSpacer>
+                    </ToolBarContent>
+                    <HeaderContent>
+                        <MudTh>Class</MudTh>
+                        <MudTh>No Of Student</MudTh>
+                    </HeaderContent>
+                    <RowTemplate>
+                        <MudTd DataLabel="Class">@context.ClassName</MudTd>
+                        <MudTd DataLabel="No Of Student">@context.NoStudents</MudTd>
+                    </RowTemplate>
 
-<section class="content">
-    <p>
-        Welcome to your new app.
-    </p>
+                </MudTable>
+        </MudItem>
+        <MudItem xs="12" sm="12" md="4">
+            <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
+                <MudText Typo="Typo.h6">Average age of students is <br /> ( @StudentAverageAgeReport years)  </MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
 
-</section>
+@code {
+
+
+    private string searchString = "";
+    
+    private double StudentAverageAgeReport = 0;
+    private List<StudentsPerCountryDto> StudentPerCountryRrport = new();
+    private List<StudentsPerClassDto> StudentPerClassRrport = new();
+    protected override async Task OnInitializedAsync()
+    {
+        StudentPerCountryRrport = (await Mediator.Send(new GetStudentPerCountryReport())).Data;
+        StudentPerClassRrport = (await Mediator.Send(new GetStudentPerClassReport())).Data;
+        StudentAverageAgeReport = await Mediator.Send(new GetStudentAverageAgeReport());
+    }
+
+
+}
