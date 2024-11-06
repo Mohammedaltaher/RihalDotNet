@@ -1,0 +1,44 @@
+﻿@inject CountryService CountryService
+@inject MudBlazor.ISnackbar SnackBar
+
+@code {
+    private string searchQuery = "";
+
+    [Parameter]
+    public List<CountryDto> Countrys { get; set; } = new();
+
+    [Parameter]
+    public EventCallback<int> OnEdit { get; set; }
+
+    [Parameter]
+    public EventCallback<int> OnDelete { get; set; }
+
+    // Filtered Country list based on search query
+    private IEnumerable<CountryDto> FilteredCountrys => Countrys
+        .Where(Country => string.IsNullOrEmpty(searchQuery) ||
+                          Country.Name.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) );
+}
+
+<MudTable Items="FilteredCountrys">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Countries</MudText>
+        <MudSpacer></MudSpacer>
+        <MudTextField @bind-Value="searchQuery" Placeholder="Search for Countrys..." Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Id</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Actions</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd>
+            <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Primary" OnClick="@(() => OnEdit.InvokeAsync(@context.Id))" />
+            <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Secondary" OnClick="@(() => OnDelete.InvokeAsync(@context.Id))" />
+        </MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="new int[] { 5,10,20,50}" />
+    </PagerContent>
+</MudTable>

@@ -1,0 +1,52 @@
+﻿@inject StudentService StudentService
+@inject MudBlazor.ISnackbar SnackBar
+
+@code {
+    private string searchQuery = "";
+
+    [Parameter]
+    public List<StudentDto> Students { get; set; } = new();
+
+    [Parameter]
+    public EventCallback<int> OnEdit { get; set; }
+
+    [Parameter]
+    public EventCallback<int> OnDelete { get; set; }
+
+    // Filtered student list based on search query
+    private IEnumerable<StudentDto> FilteredStudents => Students
+        .Where(student => string.IsNullOrEmpty(searchQuery) ||
+                          student.Name.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                          student.CountryName.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                          student.ClassName.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
+}
+
+<MudTable Items="FilteredStudents">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Students</MudText>
+        <MudSpacer></MudSpacer>
+        <MudTextField @bind-Value="searchQuery" Placeholder="Search for Students..." Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Id</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Birth Date</MudTh>
+        <MudTh>Class</MudTh>
+        <MudTh>Country</MudTh>
+        <MudTh>Actions</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd DataLabel="Birth Date">@context.Birth_Date</MudTd>
+        <MudTd DataLabel="Class">@context.ClassName</MudTd>
+        <MudTd DataLabel="Country">@context.CountryName</MudTd>
+        <MudTd>
+            <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Primary" OnClick="@(() => OnEdit.InvokeAsync(@context.Id))" />
+            <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Secondary" OnClick="@(() => OnDelete.InvokeAsync(@context.Id))" />
+        </MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="new int[] { 5,10,20,50}" />
+    </PagerContent>
+</MudTable>

@@ -1,0 +1,55 @@
+﻿@using Application.Features.ClassFeatures.Commands
+@inject ClassService ClassService
+@inject CountryService countryService
+@inject ClassService classService
+@inject MudBlazor.ISnackbar SnackBar
+@code {
+    [Parameter]
+    public EventCallback<(CreateClassCommand?, UpdateClassCommand?)> OnClassSaved { get; set; }
+
+    [Parameter]
+    public ClassDto Class { get; set; } = new();
+
+    private CreateClassCommand? createClassCommand;
+    private UpdateClassCommand? updateClassCommand;
+
+    private List<CountryDto> Countries = new();
+    private List<ClassDto> Classs = new();
+    MudForm form;
+   
+    protected async Task OnSave()
+    {
+        if (Class.Id != 0)
+        {
+            updateClassCommand = new UpdateClassCommand
+                {
+                    Id = Class.Id,
+                    Name = Class.Name,
+                };
+        }
+        else
+        {
+            createClassCommand = new CreateClassCommand
+                {
+                    Name = Class.Name,
+                };
+        }
+        await OnClassSaved.InvokeAsync((createClassCommand, updateClassCommand));
+        ResetForm();
+    }
+    private void ResetForm()
+    {
+        updateClassCommand = null;
+        createClassCommand = null;
+        Class = new();
+        form?.ResetAsync();  // Clear the form validation state
+    }
+}
+
+<MudCardContent>
+    <MudForm @ref="form" Model="Class">
+        <MudTextField @bind-Value="Class.Name" Label="Name" Variant="Variant.Text" Margin="Margin.Normal" />
+        <MudButton Variant="Variant.Filled" Color="Color.Success" OnClick="OnSave">Save Class</MudButton>
+        <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="ResetForm">Reset Form</MudButton>
+    </MudForm>
+</MudCardContent>

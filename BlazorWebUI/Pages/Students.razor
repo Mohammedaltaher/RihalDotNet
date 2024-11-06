@@ -1,143 +1,48 @@
 ﻿@page "/Students"
 @using Application.Features.StudentFeatures.Commands
-@using Application.Features.CountryFeatures.Queries
-@using Application.Features.ClassFeatures.Queries
-@using Domain.Entities
-@using static Application.Features.StudentFeatures.Commands.CreateStudentCommand
-<PageTitle>Student </PageTitle>
-@inject IMediator Mediator;
-@inject MudBlazor.ISnackbar snackBar;
-@inject NavigationManager uriHelper;
-<MudCard Elevation="25">
-    <MudCardHeader>
-        <CardHeaderContent>
-            <MudText Typo="Typo.h6">Add / Edit Students</MudText>
-        </CardHeaderContent>
-    </MudCardHeader>
-    <MudCardContent>
-        <MudTextField @bind-Value="student.Name" Label=" Name" Variant="Variant.Text" Margin="Margin.Normal"></MudTextField>
-        <MudDatePicker @bind-Date="student.Birth_Date" Label="Birth Date" Margin="Margin.Normal" />
-        <MudSelect T="CountryDto" Label="Select Country" Variant="Variant.Text" Margin="Margin.Normal">
-            @foreach (CountryDto item in Countries)
-            {
-                <MudSelectItem Value="@item">@item.Name</MudSelectItem>
-            }
-        </MudSelect>
-        <MudSelect T="ClassDto" Label="Select Class" Variant="Variant.Text" Margin="Margin.Normal">
-            @foreach (ClassDto item in Classes)
-            {
-                <MudSelectItem Value="@item">@item.Name</MudSelectItem>
-            }
-        </MudSelect>
-        <br />
-        <MudButton Variant="Variant.Filled" Color="Color.Success" OnClick="Save">Save Student</MudButton>
-    </MudCardContent>
+@using BlazorWebUI.Components.Students
+@inject StudentService StudentService
+@inject LoadingService loadingService
+<MudCard>
+    <StudentForm Student="student" OnStudentSaved="SaveStudentAsync" />
 </MudCard>
 <br />
+<StudentTable Students="students" OnEdit="EditStudent" OnDelete="DeleteStudent" />
 
-<MudTable Elevation="25" Items="students" Filter="new Func<StudentDto, bool>(Search)" @bind-customer="student">
-    <ToolBarContent>
-        <MudText Typo="Typo.h6">Students</MudText>
-        <MudSpacer></MudSpacer>
-        <MudTextField @bind-Value="searchString" Placeholder="Search for Students..." Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
-    </ToolBarContent>
-    <HeaderContent>
-        <MudTh>Id</MudTh>
-        <MudTh>Student Name</MudTh>
-        <MudTh>Birth Date</MudTh>
-        <MudTh>Class</MudTh>
-        <MudTh>Country</MudTh>
-        <MudTh>Actions</MudTh>
-    </HeaderContent>
-    <RowTemplate>
-        <MudTd DataLabel="Id">@context.Id</MudTd>
-        <MudTd DataLabel="Student Name">@context.Name</MudTd>
-        <MudTd DataLabel="Birth Date">@context.Birth_Date</MudTd>
-        <MudTd DataLabel="Class">@context.ClassName</MudTd>
-        <MudTd DataLabel="Country">@context.CountryName</MudTd>
-        <MudTd DataLabel="">
-            <MudFab @onclick="@(()=>Edit(@context.Id))" Color="Color.Primary" Icon="@Icons.Material.Filled.Edit" Size="Size.Small" IconSize="Size.Small" />
-            <MudFab @onclick="@(()=>Delete(@context.Id))" Color="Color.Secondary" Icon="@Icons.Material.Filled.Delete" Size="Size.Small" IconSize="Size.Small" />
-        </MudTd>
-    </RowTemplate>
-    <PagerContent>
-        <MudTablePager PageSizeOptions="new int[] { 5,10,20,50}" />
-    </PagerContent>
-</MudTable>
+
 @code {
-
-
-    private string searchString = "";
-
-    private CreateStudentCommand student = new(); //C# 9 Syntax
-    private GetStudentByIdQuery GetStudentById = new();
     private List<StudentDto> students = new();
-    private List<CountryDto> Countries = new();
-    private List<ClassDto> Classes = new();
-    private bool hideElment = false;
+    private StudentDto student = new();
 
-    private int CurrentStudentId = 0;
-    protected override async Task OnInitializedAsync()
-    {
-        student.CountryId = 1;
-        student.ClassId = 2;
-        StudentsBaseModel? obj = await Mediator.Send(new GetAllStudentQuery());
-        students = obj.Data;
+    protected override async Task OnInitializedAsync() => await LoadStudents();
+    private async Task EditStudent(int id) => student = await StudentService.GetStudentsAsync(id);
 
-        Countries = (await Mediator.Send(new GetAllCountryQuery())).Data;
-        Classes = (await Mediator.Send(new GetAllClassQuery())).Data;
 
-    }
+    private async Task SaveStudentAsync((CreateStudentCommand?, UpdateStudentCommand?) result)
+    {
+        var (createStudentCommand, updateStudentCommand) = result;
 
-    private async Task GetAllStudents()
-    {
-        StudentsBaseModel? obj = await Mediator.Send(new GetAllStudentQuery());
-        students = obj.Data;
-        CurrentStudentId = 0;
-    }
-    private List<StudentDto> BindStudent()
-    {
-        return students;
-    }
-    private bool Search(StudentDto student)
-    {
-        if (student.Name is not null && student.Name is not null && student.Name is not null &&
-            student.Name.Contains(searchString, StringComparison.OrdinalIgnoreCase)
-            || student.Name.Contains(searchString, StringComparison.OrdinalIgnoreCase)
-            || student.Name.Contains(searchString, StringComparison.OrdinalIgnoreCase))
-        {
-            return true;
-        }
-        return false;
+        if (createStudentCommand != null)
+            await StudentService.SaveStudentAsync(createStudentCommand);
+        else if (updateStudentCommand != null)
+            await StudentService.UpdateStudentAsync(updateStudentCommand);
+
+        student = new();
+        await LoadStudents();
     }
 
-    private async void Save()
+    private async Task DeleteStudent(int id)
     {
-        if (CurrentStudentId == 0)
-        {
-            var obj = await Mediator.Send(student);
-            snackBar.Add("Student record saved", Severity.Success);
-        }
-        else
-        {
-            var obj = await Mediator.Send(new UpdateStudentCommand() { Id = CurrentStudentId, Name = student.Name });
-            snackBar.Add("Student record Updated", Severity.Success);
-        }
-        uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
+        await StudentService.DeleteStudentAsync(id);
+        await LoadStudents();
     }
-    private async void Edit(int id)
+
+    private async Task LoadStudents()
     {
-        StudentBaseModel obj = await Mediator.Send(new GetStudentByIdQuery() { Id = id });
-        student.Name = obj.Data.Name;
-        student.Birth_Date = obj.Data.Birth_Date;
-        student.ClassId = obj.Data.ClassId;
-        student.CountryId = obj.Data.CountryId;
-        CurrentStudentId = obj.Data.Id;
-    }
-    private async void Delete(int id)
-    {
-        StudentBaseModel obj = await Mediator.Send(new DeleteStudentByIdCommand() { Id = id });
-        snackBar.Add("Customer Data Deleted.", Severity.Success);
-        uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
+        loadingService.Show();
+
+        students = await StudentService.GetAllStudentsAsync();
+
+        loadingService.Hide();
     }
 }

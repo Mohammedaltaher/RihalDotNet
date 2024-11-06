@@ -1,0 +1,49 @@
+﻿@using MudBlazor
+@inherits LayoutComponentBase
+@inject IJSRuntime JS
+<PageTitle>BlazorApp1</PageTitle>
+@inject LoadingService LoaderService
+
+<MudThemeProvider />
+<MudPopoverProvider />
+
+<MudLayout>
+
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
+        <MudSpacer />
+        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
+    </MudAppBar>
+    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+        <MudNavLink Href="/">Dashboard</MudNavLink>
+        <MudNavLink Href="/Students">Students</MudNavLink>
+        <MudNavLink Href="/Countries">Countres</MudNavLink>
+        <MudNavLink Href="/Classes">Classes</MudNavLink>
+    </MudDrawer>
+    <MudMainContent>
+        <Loader IsVisible="isLoading" />
+        @Body
+    </MudMainContent>
+
+</MudLayout>
+@code {
+    bool _drawerOpen = true;
+    private bool isLoading;
+
+    void DrawerToggle() => _drawerOpen = !_drawerOpen;
+    protected override void OnInitialized() => LoaderService.OnLoadingChanged += ShowLoader;
+
+    public void SetLoading(bool loading)
+    {
+        isLoading = loading;
+        StateHasChanged(); // Notify the UI to re-render
+    }
+    private void ShowLoader(bool visible)
+    {
+        isLoading = visible;
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose() => LoaderService.OnLoadingChanged -= ShowLoader;
+}

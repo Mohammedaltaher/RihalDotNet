@@ -1,0 +1,44 @@
+﻿@inject ClassService ClassService
+@inject MudBlazor.ISnackbar SnackBar
+
+@code {
+    private string searchQuery = "";
+
+    [Parameter]
+    public List<ClassDto> Classs { get; set; } = new();
+
+    [Parameter]
+    public EventCallback<int> OnEdit { get; set; }
+
+    [Parameter]
+    public EventCallback<int> OnDelete { get; set; }
+
+    // Filtered Class list based on search query
+    private IEnumerable<ClassDto> FilteredClasss => Classs
+        .Where(Class => string.IsNullOrEmpty(searchQuery) ||
+                          Class.Name.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
+}
+
+<MudTable Items="FilteredClasss">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Classs</MudText>
+        <MudSpacer></MudSpacer>
+        <MudTextField @bind-Value="searchQuery" Placeholder="Search for Classs..." Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Id</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Actions</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd>
+            <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Primary" OnClick="@(() => OnEdit.InvokeAsync(@context.Id))" />
+            <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Secondary" OnClick="@(() => OnDelete.InvokeAsync(@context.Id))" />
+        </MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="new int[] { 5,10,20,50}" />
+    </PagerContent>
+</MudTable>

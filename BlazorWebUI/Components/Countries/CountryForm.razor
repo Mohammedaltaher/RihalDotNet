@@ -1,0 +1,53 @@
+﻿@using Application.Features.CountryFeatures.Commands
+@inject CountryService CountryService
+@inject CountryService countryService
+@inject ClassService classService
+@inject MudBlazor.ISnackbar SnackBar
+@code {
+    [Parameter]
+    public EventCallback<(CreateCountryCommand?, UpdateCountryCommand?)> OnCountrySaved { get; set; }
+
+    [Parameter]
+    public CountryDto Country { get; set; } = new();
+
+    private CreateCountryCommand? createCountryCommand;
+    private UpdateCountryCommand? updateCountryCommand;
+
+    MudForm form;
+    protected async Task OnSave()
+    {
+        if (Country.Id != 0)
+        {
+            updateCountryCommand = new UpdateCountryCommand
+                {
+                    Id = Country.Id,
+                    Name = Country.Name,
+                };
+        }
+        else
+        {
+            createCountryCommand = new CreateCountryCommand
+                {
+                    Name = Country.Name,
+                };
+        }
+        await OnCountrySaved.InvokeAsync((createCountryCommand, updateCountryCommand));
+        ResetForm();
+    }
+    private void ResetForm()
+    {
+        updateCountryCommand = null;
+        createCountryCommand = null;
+        Country = new();
+        form?.ResetAsync();  // Clear the form validation state
+    }
+}
+
+<MudCardContent>
+    <MudForm @ref="form" Model="Country">
+        <MudTextField @bind-Value="Country.Name" Label="Name" Variant="Variant.Text" Margin="Margin.Normal" />
+        <MudButton Variant="Variant.Filled" Color="Color.Success" OnClick="OnSave">Save Country</MudButton>
+        <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="ResetForm">Reset Form</MudButton>
+
+    </MudForm>
+</MudCardContent>

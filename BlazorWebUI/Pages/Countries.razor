@@ -1,113 +1,45 @@
 ﻿@page "/Countries"
 @using Application.Features.CountryFeatures.Commands
-@using Application.Features.CountryFeatures.Queries
-@using Domain.Entities
-@using static Application.Features.CountryFeatures.Commands.CreateCountryCommand
-
-<PageTitle>Country </PageTitle>
-@inject IMediator Mediator;
-@inject MudBlazor.ISnackbar snackBar;
-@inject NavigationManager uriHelper;
-<MudCard Elevation="25">
-    <MudCardHeader>
-        <CardHeaderContent>
-            <MudText Typo="Typo.h6">Add / Edit Countrys</MudText>
-        </CardHeaderContent>
-    </MudCardHeader>
-    <MudCardContent>
-        <MudTextField @bind-Value="country.Name" Label=" Name" Variant="Variant.Text" Margin="Margin.Normal"></MudTextField>
-        <br />
-        <MudButton Variant="Variant.Filled" Color="Color.Success" OnClick="Save">Save Country</MudButton>
-    </MudCardContent>
+@using BlazorWebUI.Components.Countries
+@inject CountryService countryService
+@inject LoadingService loadingService
+<MudCard>
+    <CountryForm Country="Country" OnCountrySaved="SaveCountryAsync" />
 </MudCard>
 <br />
+<CountryTable Countrys="Countrys" OnEdit="EditCountry" OnDelete="DeleteCountry" />
 
-<MudTable Elevation="25" Items="BindCountry()" Filter="new Func<CountryDto, bool>(Search)" @bind-customer="country">
-    <ToolBarContent>
-        <MudText Typo="Typo.h6">Countrys</MudText>
-        <MudSpacer></MudSpacer>
-        <MudTextField @bind-Value="searchString" Placeholder="Search for Countrys..." Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
-    </ToolBarContent>
-    <HeaderContent>
-        <MudTh>Id</MudTh>
-        <MudTh>Country Name</MudTh>
-        <MudTh>Action</MudTh>
-    </HeaderContent>
-    <RowTemplate>
-        <MudTd DataLabel="Id">@context.Id</MudTd>
-        <MudTd DataLabel="Country Name">@context.Name</MudTd>
-        <MudTd DataLabel="">
-            <MudFab @onclick="@(()=>Edit(@context.Id))" Color="Color.Primary" Icon="@Icons.Material.Filled.Edit" Size="Size.Small" IconSize="Size.Small" />
-            <MudFab @onclick="@(()=>Delete(@context.Id))" Color="Color.Secondary" Icon="@Icons.Material.Filled.Delete" Size="Size.Small" IconSize="Size.Small" />
-        </MudTd>
-    </RowTemplate>
-    <PagerContent>
-        <MudTablePager PageSizeOptions="new int[] { 5,10,20,50}" />
-    </PagerContent>
-</MudTable>
+
 @code {
-
-
-    private string searchString = "";
-
-    private CreateCountryCommand country = new(); //C# 9 Syntax
-    private GetCountryByIdQuery GetCountryById = new();
     private List<CountryDto> Countrys = new();
+    private CountryDto Country = new();
 
-    private int CurrentCountryId = 0;
-    protected override async Task OnInitializedAsync()
-    {
-        CountrysBaseModel? obj = await Mediator.Send(new GetAllCountryQuery());
-        Countrys = obj.Data;
-    }
+    protected override async Task OnInitializedAsync() => await LoadCountries();
 
-    private async Task GetAllCountrys()
+    private async Task SaveCountryAsync((CreateCountryCommand?, UpdateCountryCommand?) result)
     {
-        
-        CountrysBaseModel? obj = await Mediator.Send(new GetAllCountryQuery());
-        Countrys = obj.Data;
+        var (createCountryCommand, updateCountryCommand) = result;
+
+        if (createCountryCommand != null)
+            await countryService.SaveCountryAsync(createCountryCommand);
+        else if (updateCountryCommand != null)
+            await countryService.UpdateCountryAsync(updateCountryCommand);
+
+        Country = new();
+        await LoadCountries();
     }
-    private List<CountryDto> BindCountry()
+    private async Task EditCountry(int id) => Country = await countryService.GetCountryAsync(id);
+
+    private async Task DeleteCountry(int id)
     {
-        GetAllCountrys();
-        return Countrys;
-    }
-    private bool Search(CountryDto Country)
-    {
-        if (Country.Name is not null && Country.Name is not null && Country.Name is not null &&
-            Country.Name.Contains(searchString, StringComparison.OrdinalIgnoreCase))
-        {
-            return true;
-        }
-        return false;
+        await countryService.DeleteCountryAsync(id);
+        await LoadCountries();
     }
 
-    private async void Save()
+    private async Task LoadCountries()
     {
-        if (CurrentCountryId == 0)
-        {
-            var obj = await Mediator.Send(country);
-            snackBar.Add("Country record saved", Severity.Success);
-        }
-        else
-        {
-            var obj = await Mediator.Send(new UpdateCountryCommand() { Id = CurrentCountryId, Name = country.Name });
-            snackBar.Add("Country record Updated", Severity.Success);
-        }
-        uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
-        GetAllCountrys();
-    }
-    private async void Edit(int id)
-    {
-        CountryBaseModel obj = await Mediator.Send(new GetCountryByIdQuery() { Id = id });
-        country.Name = obj.Data.Name;
-        CurrentCountryId = obj.Data.Id;
-    }
-    private async void Delete(int id)
-    {
-        CountryBaseModel obj = await Mediator.Send(new DeleteCountryByIdCommand() { Id = id });
-        snackBar.Add("Customer Data Deleted.", Severity.Success);
-        uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
-        GetAllCountrys();
+        loadingService.Show();
+        Countrys = await countryService.GetAllCountrysAsync();
+        loadingService.Hide();
     }
 }

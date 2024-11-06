@@ -14,14 +14,16 @@ public static class DependencyInjection
         //    options.UseSqlite(
         //        configuration.GetConnectionString("DefaultConnection"),
         //        b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+
         //services.AddDbContext<ApplicationDbContext>(options =>
         //        options.UseSqlServer(
         //            configuration.GetConnectionString("DefaultConnection"),
         //            b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+
         services.AddDbContext<ApplicationDbContext>(options =>
               options.UseInMemoryDatabase("test1"));
+
         services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
-        services.AddApplication();
     }
 
 }

@@ -1,5 +1,6 @@
+using Application.Features.StudentFeatures.Commands;
 using Application.Model;
-using BlazorWebUI.Data;
+using BlazorWebUI.Services;
 using MudBlazor.Services;
 using Persistence;
 
@@ -17,7 +18,6 @@ public class Startup
     {
         services.AddRazorPages();
         services.AddServerSideBlazor();
-        services.AddSingleton<WeatherForecastService>();
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         services.AddMudServices();
         #region options Pattren
@@ -27,6 +27,12 @@ public class Startup
         services.Configure<JWTOptions>(Configuration.GetSection(JWTOptions.JWT));
         #endregion
 
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(Program).Assembly, typeof(CreateStudentCommand).Assembly));
+        services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+        services.AddScoped<StudentService>();
+        services.AddScoped<CountryService>();
+        services.AddScoped<ClassService>();
+        services.AddScoped<LoadingService>();
         services.AddPersistence(Configuration);
     }
 

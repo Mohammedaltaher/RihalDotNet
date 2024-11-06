@@ -939,3 +939,373 @@
 2022-01-05 18:17:00.7300 Info Adding target FileTarget(Name=alldata)
 2022-01-05 18:17:00.7300 Info Adding target FileTarget(Name=otherFile-web)
 2022-01-05 18:17:00.7559 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\DotNet\Rihal\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2024-11-05 09:05:30.8961 Info Message Template Auto Format enabled
+2024-11-05 09:05:30.8961 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:05:30.9552 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:05:30.9552 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:05:30.9873 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2024-11-05 09:07:58.0870 Info Message Template Auto Format enabled
+2024-11-05 09:07:58.0934 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:07:58.1374 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:07:58.1452 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:07:58.1676 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net6.0\nlog.config
+2024-11-05 09:15:29.3341 Info Message Template Auto Format enabled
+2024-11-05 09:15:29.3341 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:15:29.3640 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:15:29.3640 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:15:29.3926 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 09:17:29.9854 Info Message Template Auto Format enabled
+2024-11-05 09:17:29.9854 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:17:30.0110 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:17:30.0182 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:17:30.0796 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 09:19:01.8941 Info Message Template Auto Format enabled
+2024-11-05 09:19:01.8941 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:19:01.9218 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:19:01.9218 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:19:01.9424 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 09:20:09.3223 Info Message Template Auto Format enabled
+2024-11-05 09:20:09.3281 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:20:09.3472 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:20:09.3472 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:20:09.3679 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 09:22:54.0429 Info Message Template Auto Format enabled
+2024-11-05 09:22:54.0491 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:22:54.0717 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:22:54.0788 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:22:54.0788 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 09:24:01.2665 Info Message Template Auto Format enabled
+2024-11-05 09:24:01.2665 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:24:01.2914 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:24:01.2978 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:24:01.3140 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 09:24:57.0047 Info Message Template Auto Format enabled
+2024-11-05 09:24:57.0047 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:24:57.0296 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:24:57.0362 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:24:57.0493 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 09:26:04.3246 Info Message Template Auto Format enabled
+2024-11-05 09:26:04.3308 Info Loading assembly: NLog.Web.AspNetCore
+2024-11-05 09:26:04.3507 Info Adding target FileTarget(Name=alldata)
+2024-11-05 09:26:04.3507 Info Adding target FileTarget(Name=otherFile-web)
+2024-11-05 09:26:04.3744 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:08:48.7907 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:08:48.8019 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:08:48.8019 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:08:48.8234 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:08:48.8299 Info Configuration initialized.
+2024-11-05 10:11:22.2749 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:11:22.2858 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:11:22.2858 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:11:22.3061 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:11:22.3125 Info Configuration initialized.
+2024-11-05 10:12:26.5064 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:12:26.5185 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:12:26.5185 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:12:26.5417 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:12:26.5500 Info Configuration initialized.
+2024-11-05 10:13:15.7545 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:13:15.7687 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:13:15.7687 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:13:15.7894 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:13:15.7964 Info Configuration initialized.
+2024-11-05 10:14:11.3832 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:14:11.3945 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:14:11.3945 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:14:11.4163 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:14:11.4239 Info Configuration initialized.
+2024-11-05 10:14:46.9929 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:14:47.0042 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:14:47.0042 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:14:47.0249 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:14:47.0321 Info Configuration initialized.
+2024-11-05 10:15:46.2887 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:15:46.2994 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:15:46.2994 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:15:46.3196 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:15:46.3196 Info Configuration initialized.
+2024-11-05 10:18:24.7425 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:18:24.7529 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:18:24.7529 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:18:24.7730 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:18:24.7730 Info Configuration initialized.
+2024-11-05 10:19:25.8981 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:19:25.9084 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:19:25.9084 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:19:25.9275 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:19:25.9275 Info Configuration initialized.
+2024-11-05 10:30:41.5225 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:30:41.5336 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:30:41.5336 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:30:41.5528 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:30:41.5528 Info Configuration initialized.
+2024-11-05 10:50:19.2590 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:50:19.2692 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:50:19.2692 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:50:19.2867 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:50:19.2867 Info Configuration initialized.
+2024-11-05 10:54:02.3585 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:54:02.3713 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:54:02.3751 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:54:02.4564 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:54:02.4564 Info Configuration initialized.
+2024-11-05 10:56:20.3349 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:56:20.3483 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:56:20.3483 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:56:20.3693 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:56:20.3758 Info Configuration initialized.
+2024-11-05 10:58:07.4739 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 10:58:07.4837 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 10:58:07.4869 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 10:58:07.5028 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 10:58:07.5028 Info Configuration initialized.
+2024-11-05 11:04:26.8556 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:04:26.8702 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:04:26.8753 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:04:26.8944 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:04:26.8944 Info Configuration initialized.
+2024-11-05 11:08:53.1452 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:08:53.1556 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:08:53.1595 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:08:53.1750 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:08:53.1750 Info Configuration initialized.
+2024-11-05 11:10:04.8742 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:10:04.8883 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:10:04.8915 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:10:04.9080 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:10:04.9080 Info Configuration initialized.
+2024-11-05 11:11:00.8505 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:11:00.8610 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:11:00.8610 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:11:00.8805 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:11:00.8805 Info Configuration initialized.
+2024-11-05 11:13:25.3077 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:13:25.3186 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:13:25.3186 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:13:25.3372 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:13:25.3439 Info Configuration initialized.
+2024-11-05 11:26:57.3722 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:26:57.3828 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:26:57.3828 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:26:57.4024 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:26:57.4087 Info Configuration initialized.
+2024-11-05 11:32:36.3146 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:32:36.3264 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:32:36.3297 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:32:36.3468 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:32:36.3468 Info Configuration initialized.
+2024-11-05 11:36:59.3211 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:36:59.3319 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:36:59.3319 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:36:59.3506 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:36:59.3506 Info Configuration initialized.
+2024-11-05 11:43:24.8760 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:43:24.8871 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:43:24.8915 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:43:24.9115 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:43:24.9115 Info Configuration initialized.
+2024-11-05 11:50:24.8116 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:50:24.8229 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:50:24.8229 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:50:24.8438 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:50:24.8438 Info Configuration initialized.
+2024-11-05 11:52:12.4933 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 11:52:12.5029 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 11:52:12.5029 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 11:52:12.5206 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 11:52:12.5206 Info Configuration initialized.
+2024-11-05 13:58:23.2046 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 13:58:23.2184 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 13:58:23.2184 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 13:58:23.2409 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 13:58:23.2409 Info Configuration initialized.
+2024-11-05 14:12:50.7376 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 14:12:50.7514 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 14:12:50.7514 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 14:12:50.7743 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 14:12:50.7827 Info Configuration initialized.
+2024-11-05 14:21:49.1673 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 14:21:49.1773 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 14:21:49.1773 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 14:21:49.1962 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 14:21:49.2025 Info Configuration initialized.
+2024-11-05 14:47:11.3543 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 14:47:11.3645 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 14:47:11.3645 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 14:47:11.3837 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 14:47:11.3911 Info Configuration initialized.
+2024-11-05 14:50:12.0934 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 14:50:12.1040 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 14:50:12.1040 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 14:50:12.1239 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 14:50:12.1305 Info Configuration initialized.
+2024-11-05 14:55:43.0324 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 14:55:43.0435 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 14:55:43.0466 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 14:55:43.0628 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 14:55:43.0628 Info Configuration initialized.
+2024-11-05 15:00:29.4038 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:00:29.4151 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:00:29.4151 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:00:29.4358 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:00:29.4436 Info Configuration initialized.
+2024-11-05 15:08:59.1048 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:08:59.1159 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:08:59.1159 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:08:59.1366 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:08:59.1438 Info Configuration initialized.
+2024-11-05 15:10:02.8915 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:10:02.9027 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:10:02.9061 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:10:02.9226 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:10:02.9226 Info Configuration initialized.
+2024-11-05 15:16:07.3613 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:16:07.3719 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:16:07.3752 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:16:07.3907 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:16:07.3907 Info Configuration initialized.
+2024-11-05 15:17:50.6641 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:17:50.6742 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:17:50.6742 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:17:50.6926 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:17:50.6926 Info Configuration initialized.
+2024-11-05 15:19:52.7666 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:19:52.7770 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:19:52.7770 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:19:52.7966 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:19:52.7966 Info Configuration initialized.
+2024-11-05 15:21:13.3117 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:21:13.3233 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:21:13.3233 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:21:13.3414 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:21:13.3481 Info Configuration initialized.
+2024-11-05 15:22:42.0689 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:22:42.0818 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:22:42.0818 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:22:42.1038 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:22:42.1126 Info Configuration initialized.
+2024-11-05 15:41:25.5829 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-05 15:41:25.5944 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-05 15:41:25.5944 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-05 15:41:25.6124 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-05 15:41:25.6124 Info Configuration initialized.
+2024-11-06 08:22:50.0791 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:22:50.0896 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:22:50.0896 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:22:50.1095 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:22:50.1095 Info Configuration initialized.
+2024-11-06 08:24:35.5999 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:24:35.6111 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:24:35.6111 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:24:35.6315 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:24:35.6378 Info Configuration initialized.
+2024-11-06 08:27:53.3572 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:27:53.3679 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:27:53.3714 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:27:53.3885 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:27:53.3885 Info Configuration initialized.
+2024-11-06 08:28:22.7138 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:28:22.7256 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:28:22.7256 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:28:22.7442 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:28:22.7508 Info Configuration initialized.
+2024-11-06 08:33:33.2646 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:33:33.2751 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:33:33.2783 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:33:33.2960 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:33:33.2960 Info Configuration initialized.
+2024-11-06 08:33:59.1478 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:33:59.1584 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:33:59.1584 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:33:59.1794 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:33:59.1859 Info Configuration initialized.
+2024-11-06 08:37:25.4483 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:37:25.4599 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:37:25.4635 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:37:25.4635 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:37:25.4853 Info Configuration initialized.
+2024-11-06 08:37:55.2253 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:37:55.2380 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:37:55.2380 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:37:55.2577 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:37:55.2645 Info Configuration initialized.
+2024-11-06 08:39:21.4129 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:39:21.4252 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:39:21.4252 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:39:21.4473 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:39:21.4539 Info Configuration initialized.
+2024-11-06 08:40:35.8495 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:40:35.8610 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:40:35.8610 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:40:35.8829 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:40:35.8901 Info Configuration initialized.
+2024-11-06 08:50:10.6806 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:50:10.6919 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:50:10.6919 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:50:10.7112 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:50:10.7182 Info Configuration initialized.
+2024-11-06 08:52:27.9268 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 08:52:27.9385 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 08:52:27.9385 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 08:52:27.9605 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 08:52:27.9669 Info Configuration initialized.
+2024-11-06 09:03:05.1874 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 09:03:05.1980 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 09:03:05.1980 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 09:03:05.2194 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 09:03:05.2194 Info Configuration initialized.
+2024-11-06 09:13:43.8465 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 09:13:43.8569 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 09:13:43.8569 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 09:13:43.8764 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 09:13:43.8852 Info Configuration initialized.
+2024-11-06 09:16:49.8948 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 09:16:49.9087 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 09:16:49.9087 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 09:16:49.9317 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 09:16:49.9389 Info Configuration initialized.
+2024-11-06 09:21:08.7616 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 09:21:08.7766 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 09:21:08.7766 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 09:21:08.7994 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 09:21:08.7994 Info Configuration initialized.
+2024-11-06 10:04:27.8528 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 10:04:27.8693 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 10:04:27.8726 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 10:04:27.8933 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 10:04:27.8933 Info Configuration initialized.
+2024-11-06 10:08:32.1271 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 10:08:32.1385 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 10:08:32.1385 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 10:08:32.1611 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 10:08:32.1676 Info Configuration initialized.
+2024-11-06 10:11:05.7261 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 10:11:05.7374 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 10:11:05.7374 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 10:11:05.7589 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 10:11:05.7656 Info Configuration initialized.
+2024-11-06 10:24:32.0950 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 10:24:32.1057 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 10:24:32.1057 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 10:24:32.1250 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\Source\Repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 10:24:32.1250 Info Configuration initialized.
+2024-11-06 10:41:13.3084 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 10:41:13.3219 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 10:41:13.3256 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 10:41:13.3455 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\source\repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 10:41:13.3455 Info Configuration initialized.
+2024-11-06 10:42:15.7931 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 10:42:15.8047 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 10:42:15.8084 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 10:42:15.8238 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\source\repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 10:42:15.8238 Info Configuration initialized.
+2024-11-06 10:49:23.2740 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 10:49:23.2844 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 10:49:23.2844 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 10:49:23.3089 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\source\repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 10:49:23.3089 Info Configuration initialized.
+2024-11-06 10:51:44.4254 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-11-06 10:51:44.4385 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-11-06 10:51:44.4385 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-06 10:51:44.4584 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\DMA\source\repos\RihalDotNet\BlazorWebUI\bin\Debug\net8.0\nlog.config
+2024-11-06 10:51:44.4654 Info Configuration initialized.

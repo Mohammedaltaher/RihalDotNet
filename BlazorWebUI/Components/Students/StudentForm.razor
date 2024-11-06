@@ -1,0 +1,79 @@
+﻿@using Application.Features.StudentFeatures.Commands
+@inject StudentService studentService
+@inject CountryService countryService
+@inject ClassService classService
+@inject MudBlazor.ISnackbar SnackBar
+@code {
+    [Parameter]
+    public EventCallback<(CreateStudentCommand?, UpdateStudentCommand?)> OnStudentSaved { get; set; }
+
+    [Parameter]
+    public StudentDto Student { get; set; } = new();
+
+    private CreateStudentCommand? createStudentCommand;
+    private UpdateStudentCommand? updateStudentCommand;
+
+
+    private List<CountryDto> Countries = new();
+    private List<ClassDto> Classes = new();
+    MudForm form;
+    protected override async Task OnInitializedAsync()
+    {
+        Countries = await countryService.GetAllCountrysAsync();
+        Classes = await classService.GetAllClasssAsync();
+    }
+    protected async Task OnSave()
+    {
+        if (Student.Id != 0)
+        {
+            updateStudentCommand = new UpdateStudentCommand
+                {
+                    Id = Student.Id,
+                    Name = Student.Name,
+                };
+        }
+        else
+        {
+            createStudentCommand = new CreateStudentCommand
+                {
+                    Name = Student.Name,
+                    Birth_Date = Student.Birth_Date,
+                    CountryId = Student.CountryId,
+                    ClassId = Student.ClassId,
+                };
+        }
+        await OnStudentSaved.InvokeAsync((createStudentCommand, updateStudentCommand));
+        ResetForm();
+    }
+    private void ResetForm()
+    {
+        updateStudentCommand = null;
+        createStudentCommand = null;
+        Student = new();
+        form?.ResetAsync();  // Clear the form validation state
+    }
+}
+
+<MudCardContent>
+    <MudForm @ref="form" Model="Student">
+        <MudTextField @bind-Value="Student.Name" Label="Name" Variant="Variant.Text" Margin="Margin.Normal" />
+        <MudDatePicker @bind-Date="Student.Birth_Date" Label="Birth Date" Margin="Margin.Normal" />
+        <MudSelect T="int" @bind-Value="Student.CountryId" Label="Select Country" Variant="Variant.Text" Margin="Margin.Normal">
+            <MudSelectItem Value="0" Disabled="true">Select Country</MudSelectItem>
+            @foreach (var country in Countries)
+            {
+                <MudSelectItem Value="country.Id">@country.Name</MudSelectItem>
+            }
+        </MudSelect>
+        <MudSelect T="int" @bind-Value="Student.ClassId" Label="Select Class" Variant="Variant.Text" Margin="Margin.Normal">
+            <MudSelectItem Value="0" Disabled="true">Select Class</MudSelectItem>
+            @foreach (var classDto in Classes)
+            {
+                <MudSelectItem Value="classDto.Id">@classDto.Name</MudSelectItem>
+            }
+        </MudSelect>
+        <MudButton Variant="Variant.Filled" Color="Color.Success" OnClick="OnSave">Save Student</MudButton>
+        <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="ResetForm">Reset Form</MudButton>
+
+    </MudForm>
+</MudCardContent>
