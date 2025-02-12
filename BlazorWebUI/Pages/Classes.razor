@@ -4,18 +4,19 @@
 @inject ClassService ClassService
 @inject LoadingService loadingService
 <MudCard>
-    <ClassForm Class="Class" OnClassSaved="SaveClassAsync" />
+    <ClassForm Class="Class" IsModalVisible="IsModalVisible" OnClassSaved="SaveClassAsync" />
 </MudCard>
 <br />
-<ClassTable Classs="Classs" OnEdit="EditClass" OnDelete="DeleteClass" />
+<ClassTable Classs="Classs" OnAdd="AddClass" OnEdit="EditClass" OnDelete="DeleteClass" />
 
 
 @code {
     private List<ClassDto> Classs = new();
     private ClassDto Class = new();
+    private bool IsModalVisible = false;
     protected override async Task OnInitializedAsync() => await LoadClasss();
-  
-   
+
+
     private async Task SaveClassAsync((CreateClassCommand?, UpdateClassCommand?) result)
     {
         var (createClassCommand, updateClassCommand) = result;
@@ -27,8 +28,15 @@
 
         Class = new();
         await LoadClasss();
+        IsModalVisible = false;
     }
-    private async Task EditClass(int id) => Class = await ClassService.GetClasssAsync(id);
+    private async Task EditClass(int id)
+    {
+        Class = await ClassService.GetClasssAsync(id);
+        IsModalVisible = true;
+    }
+    private void AddClass() => IsModalVisible = true;
+
     private async Task DeleteClass(int id)
     {
         await ClassService.DeleteClassAsync(id);
